@@ -22,7 +22,7 @@ mvn package
 mvn spring-boot:run
 ```
 
-### To test the microservices
+### Testing the microservice
 
 After starting it, the service must be available at `http://localhost:8080`
 
@@ -30,7 +30,7 @@ Use **Postman** to test the endpoints after locally starting the microservice.
 
 The following endpoints will be available:
 
-`POST /api/wallets (to create a new wallet)`
+> `POST /api/wallets (to create a new wallet)`
 
 body sample:
 
@@ -40,17 +40,17 @@ body sample:
 }
 ```
 
-`GET /api/wallets (to retrieve all created wallets)`
+> `GET /api/wallets (to retrieve all created wallets)`
 
-`GET /api/wallets/{walletId}/balance (to retrieve the current balance of a specific wallet)`
+> `GET /api/wallets/{walletId}/balance (to retrieve the current balance of a specific wallet)`
 
-`GET /api/wallets/{walletId}/balance/history?date={yyyy-mm-dd} (to retrieve the history balance of a specific wallet)`
+> `GET /api/wallets/{walletId}/balance/history?date={yyyy-mm-dd} (to retrieve the history balance of a specific wallet)`
 
-`POST /api/wallets/{walletId}/deposit?amount={value} (to deposit values into a specific wallet)`
+> `POST /api/wallets/{walletId}/deposit?amount={value} (to deposit values into a specific wallet)`
 
-`POST /api/wallets/{walletId}/withdraw?amount={value} (to withdraw values from a specific wallet)`
+> `POST /api/wallets/{walletId}/withdraw?amount={value} (to withdraw values from a specific wallet)`
 
-`POST /api/wallets/transfer (to transfer values between wallets) `
+> `POST /api/wallets/transfer (to transfer values between wallets) `
 
 body sample:
 
