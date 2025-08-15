@@ -40,17 +40,17 @@ body sample:
 }
 ```
 
-> `GET /api/wallets (to retrieve all created wallets)`
+> `GET /api/wallets (retrieve all created wallets)`
 
-> `GET /api/wallets/{walletId}/balance (to retrieve the current balance of a specific wallet)`
+> `GET /api/wallets/{walletId}/balance (retrieve the current balance of a specific wallet)`
 
-> `GET /api/wallets/{walletId}/balance/history?date={yyyy-mm-dd} (to retrieve the history balance of a specific wallet)`
+> `GET /api/wallets/{walletId}/balance/history?date={yyyy-mm-dd} (retrieve the history balance of a specific wallet)`
 
-> `POST /api/wallets/{walletId}/deposit?amount={value} (to deposit values into a specific wallet)`
+> `POST /api/wallets/{walletId}/deposit?amount={value} (deposit values into a specific wallet)`
 
-> `POST /api/wallets/{walletId}/withdraw?amount={value} (to withdraw values from a specific wallet)`
+> `POST /api/wallets/{walletId}/withdraw?amount={value} (withdraw values from a specific wallet)`
 
-> `POST /api/wallets/transfer (to transfer values between wallets) `
+> `POST /api/wallets/transfer (transfer values between wallets) `
 
 body sample:
 
